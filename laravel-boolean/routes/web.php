@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/controller', 'NomeController@index');
+Route::get('/cars', 'CarsController@index');
